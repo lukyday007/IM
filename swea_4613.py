@@ -80,9 +80,6 @@ def get_sumOfSubset(k, lst):
         total -= arr[k]
         used[k] = 0
         get_sumOfSubset(k+1, lst)
-
- 
- 
  
 for tc in range(1, int(input())+1):
     N, M = map(int, input().split())
