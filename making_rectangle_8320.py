@@ -1,3 +1,4 @@
+# 직사각형 만들기 
 N = int(input())
 ans = 0
 for i in range(1, N+1):
